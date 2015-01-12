@@ -54,6 +54,7 @@
     
     {
         weekdaysView = [JTCalendarMonthWeekDaysView new];
+        weekdaysView.backgroundColor = [UIColor colorWithRed:248.0/255.0 green:248.0/255.0 blue:248.0/255.0 alpha:1.000];
         [self addSubview:weekdaysView];
     }
     
